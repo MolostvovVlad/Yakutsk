@@ -1,0 +1,125 @@
+.logo{
+	display: flex;
+
+
+}
+.banner{
+	height: 550px;
+	background-image: url(banner.jpg);
+	background-size: 100% ;
+	padding-top: 250px;
+
+}
+.photo{
+	height: 750px;
+	padding-top: 50px;
+	background-image: url(fon.png);
+	background-size: 100% 100%
+}
+.info{
+	height: 200px;
+	padding-top: 100px;
+
+}
+.img{
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+	background-size: 100% 100%
+
+}
+.block{
+	margin-top: 30px;
+	font-family: arial;
+	margin-left: 150px;
+}
+.p{
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	color: #5eff4c;
+	transition: 0.8s;
+
+}
+.p:hover{
+	color: purple;  
+}
+.photo_block{
+	height: 350px;
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+
+}
+.block4{
+	width: 600px;
+	height: 350px;
+	background-size: 100% 100%;
+	background-image: url(photo1.jpg);
+	transition: 0.8s;
+}
+.block4:hover{
+	background-image: url(hover2.jpg);
+}
+.block5{
+	height: 350px;
+	width: 400px;
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.block7{
+	width: 600px;
+	height: 350px;
+	background-size: 100% 100%;
+	background-image: url(photo2.jpg);
+	margin-left: 150px;
+	transition: 0.8s;
+}
+.block7:hover{
+	background-image: url(hover1.jpg);
+}
+.p1{
+	width: 500px;
+	font-family: arial;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	font-family: myfont;
+	transition: 0.8s;
+	color: #5eff4c;
+
+}
+.p1:hover{
+	color: purple;
+}
+h2{
+	font-family: arial;
+	font-size: 23px;
+	margin-left: 30px;
+}
+.display{
+	display: flex;
+}
+@font-face{
+	font-family: myfont;
+	src: url(myfont.ttf);
+}
+h2{
+	font-family: myfont;
+
+}
+p{
+	font-family: myfont;
+}
+ .shadowtext {
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    font-size: 22px;
+    }
+ .shadowtext2 {
+    text-shadow: 2px 2px 5px black;
+    color: #eae3f9;
+    font-size: 22px;
+    }
